@@ -1,0 +1,63 @@
+D:\ProductAI\8puzzle_Game\WpfApp1\bin\Debug\net6.0-windows\WpfApp1.exe
+D:\ProductAI\8puzzle_Game\WpfApp1\bin\Debug\net6.0-windows\WpfApp1.deps.json
+D:\ProductAI\8puzzle_Game\WpfApp1\bin\Debug\net6.0-windows\WpfApp1.runtimeconfig.json
+D:\ProductAI\8puzzle_Game\WpfApp1\bin\Debug\net6.0-windows\WpfApp1.dll
+D:\ProductAI\8puzzle_Game\WpfApp1\bin\Debug\net6.0-windows\WpfApp1.pdb
+D:\ProductAI\8puzzle_Game\WpfApp1\obj\Debug\net6.0-windows\WpfApp1.csproj.AssemblyReference.cache
+D:\ProductAI\8puzzle_Game\WpfApp1\obj\Debug\net6.0-windows\MainWindow.g.cs
+D:\ProductAI\8puzzle_Game\WpfApp1\obj\Debug\net6.0-windows\App.g.cs
+D:\ProductAI\8puzzle_Game\WpfApp1\obj\Debug\net6.0-windows\WpfApp1_MarkupCompile.cache
+D:\ProductAI\8puzzle_Game\WpfApp1\obj\Debug\net6.0-windows\WpfApp1_MarkupCompile.lref
+D:\ProductAI\8puzzle_Game\WpfApp1\obj\Debug\net6.0-windows\MainWindow.baml
+D:\ProductAI\8puzzle_Game\WpfApp1\obj\Debug\net6.0-windows\WpfApp1.g.resources
+D:\ProductAI\8puzzle_Game\WpfApp1\obj\Debug\net6.0-windows\WpfApp1.GeneratedMSBuildEditorConfig.editorconfig
+D:\ProductAI\8puzzle_Game\WpfApp1\obj\Debug\net6.0-windows\WpfApp1.AssemblyInfoInputs.cache
+D:\ProductAI\8puzzle_Game\WpfApp1\obj\Debug\net6.0-windows\WpfApp1.AssemblyInfo.cs
+D:\ProductAI\8puzzle_Game\WpfApp1\obj\Debug\net6.0-windows\WpfApp1.csproj.CoreCompileInputs.cache
+D:\ProductAI\8puzzle_Game\WpfApp1\obj\Debug\net6.0-windows\WpfApp1.dll
+D:\ProductAI\8puzzle_Game\WpfApp1\obj\Debug\net6.0-windows\refint\WpfApp1.dll
+D:\ProductAI\8puzzle_Game\WpfApp1\obj\Debug\net6.0-windows\WpfApp1.pdb
+D:\ProductAI\8puzzle_Game\WpfApp1\obj\Debug\net6.0-windows\WpfApp1.genruntimeconfig.cache
+D:\ProductAI\8puzzle_Game\WpfApp1\obj\Debug\net6.0-windows\ref\WpfApp1.dll
+D:\ProductAI\8puzzle_Game_Nhom5\WpfApp1\bin\Debug\net6.0-windows\WpfApp1.exe
+D:\ProductAI\8puzzle_Game_Nhom5\WpfApp1\bin\Debug\net6.0-windows\WpfApp1.deps.json
+D:\ProductAI\8puzzle_Game_Nhom5\WpfApp1\bin\Debug\net6.0-windows\WpfApp1.runtimeconfig.json
+D:\ProductAI\8puzzle_Game_Nhom5\WpfApp1\bin\Debug\net6.0-windows\WpfApp1.dll
+D:\ProductAI\8puzzle_Game_Nhom5\WpfApp1\bin\Debug\net6.0-windows\WpfApp1.pdb
+D:\ProductAI\8puzzle_Game_Nhom5\WpfApp1\obj\Debug\net6.0-windows\WpfApp1.csproj.AssemblyReference.cache
+D:\ProductAI\8puzzle_Game_Nhom5\WpfApp1\obj\Debug\net6.0-windows\MainWindow.g.cs
+D:\ProductAI\8puzzle_Game_Nhom5\WpfApp1\obj\Debug\net6.0-windows\App.g.cs
+D:\ProductAI\8puzzle_Game_Nhom5\WpfApp1\obj\Debug\net6.0-windows\WpfApp1_MarkupCompile.cache
+D:\ProductAI\8puzzle_Game_Nhom5\WpfApp1\obj\Debug\net6.0-windows\WpfApp1_MarkupCompile.lref
+D:\ProductAI\8puzzle_Game_Nhom5\WpfApp1\obj\Debug\net6.0-windows\MainWindow.baml
+D:\ProductAI\8puzzle_Game_Nhom5\WpfApp1\obj\Debug\net6.0-windows\WpfApp1.g.resources
+D:\ProductAI\8puzzle_Game_Nhom5\WpfApp1\obj\Debug\net6.0-windows\WpfApp1.GeneratedMSBuildEditorConfig.editorconfig
+D:\ProductAI\8puzzle_Game_Nhom5\WpfApp1\obj\Debug\net6.0-windows\WpfApp1.AssemblyInfoInputs.cache
+D:\ProductAI\8puzzle_Game_Nhom5\WpfApp1\obj\Debug\net6.0-windows\WpfApp1.AssemblyInfo.cs
+D:\ProductAI\8puzzle_Game_Nhom5\WpfApp1\obj\Debug\net6.0-windows\WpfApp1.csproj.CoreCompileInputs.cache
+D:\ProductAI\8puzzle_Game_Nhom5\WpfApp1\obj\Debug\net6.0-windows\WpfApp1.dll
+D:\ProductAI\8puzzle_Game_Nhom5\WpfApp1\obj\Debug\net6.0-windows\refint\WpfApp1.dll
+D:\ProductAI\8puzzle_Game_Nhom5\WpfApp1\obj\Debug\net6.0-windows\WpfApp1.pdb
+D:\ProductAI\8puzzle_Game_Nhom5\WpfApp1\obj\Debug\net6.0-windows\WpfApp1.genruntimeconfig.cache
+D:\ProductAI\8puzzle_Game_Nhom5\WpfApp1\obj\Debug\net6.0-windows\ref\WpfApp1.dll
+D:\DAI_HOC\Nam 3 - Ki 1\AI\ProductAI\8puzzle_Game_Nhom5\WpfApp1\bin\Debug\net6.0-windows\WpfApp1.exe
+D:\DAI_HOC\Nam 3 - Ki 1\AI\ProductAI\8puzzle_Game_Nhom5\WpfApp1\bin\Debug\net6.0-windows\WpfApp1.deps.json
+D:\DAI_HOC\Nam 3 - Ki 1\AI\ProductAI\8puzzle_Game_Nhom5\WpfApp1\bin\Debug\net6.0-windows\WpfApp1.runtimeconfig.json
+D:\DAI_HOC\Nam 3 - Ki 1\AI\ProductAI\8puzzle_Game_Nhom5\WpfApp1\bin\Debug\net6.0-windows\WpfApp1.dll
+D:\DAI_HOC\Nam 3 - Ki 1\AI\ProductAI\8puzzle_Game_Nhom5\WpfApp1\bin\Debug\net6.0-windows\WpfApp1.pdb
+D:\DAI_HOC\Nam 3 - Ki 1\AI\ProductAI\8puzzle_Game_Nhom5\WpfApp1\obj\Debug\net6.0-windows\WpfApp1.csproj.AssemblyReference.cache
+D:\DAI_HOC\Nam 3 - Ki 1\AI\ProductAI\8puzzle_Game_Nhom5\WpfApp1\obj\Debug\net6.0-windows\MainWindow.g.cs
+D:\DAI_HOC\Nam 3 - Ki 1\AI\ProductAI\8puzzle_Game_Nhom5\WpfApp1\obj\Debug\net6.0-windows\App.g.cs
+D:\DAI_HOC\Nam 3 - Ki 1\AI\ProductAI\8puzzle_Game_Nhom5\WpfApp1\obj\Debug\net6.0-windows\WpfApp1_MarkupCompile.cache
+D:\DAI_HOC\Nam 3 - Ki 1\AI\ProductAI\8puzzle_Game_Nhom5\WpfApp1\obj\Debug\net6.0-windows\WpfApp1_MarkupCompile.lref
+D:\DAI_HOC\Nam 3 - Ki 1\AI\ProductAI\8puzzle_Game_Nhom5\WpfApp1\obj\Debug\net6.0-windows\MainWindow.baml
+D:\DAI_HOC\Nam 3 - Ki 1\AI\ProductAI\8puzzle_Game_Nhom5\WpfApp1\obj\Debug\net6.0-windows\WpfApp1.g.resources
+D:\DAI_HOC\Nam 3 - Ki 1\AI\ProductAI\8puzzle_Game_Nhom5\WpfApp1\obj\Debug\net6.0-windows\WpfApp1.GeneratedMSBuildEditorConfig.editorconfig
+D:\DAI_HOC\Nam 3 - Ki 1\AI\ProductAI\8puzzle_Game_Nhom5\WpfApp1\obj\Debug\net6.0-windows\WpfApp1.AssemblyInfoInputs.cache
+D:\DAI_HOC\Nam 3 - Ki 1\AI\ProductAI\8puzzle_Game_Nhom5\WpfApp1\obj\Debug\net6.0-windows\WpfApp1.AssemblyInfo.cs
+D:\DAI_HOC\Nam 3 - Ki 1\AI\ProductAI\8puzzle_Game_Nhom5\WpfApp1\obj\Debug\net6.0-windows\WpfApp1.csproj.CoreCompileInputs.cache
+D:\DAI_HOC\Nam 3 - Ki 1\AI\ProductAI\8puzzle_Game_Nhom5\WpfApp1\obj\Debug\net6.0-windows\WpfApp1.dll
+D:\DAI_HOC\Nam 3 - Ki 1\AI\ProductAI\8puzzle_Game_Nhom5\WpfApp1\obj\Debug\net6.0-windows\refint\WpfApp1.dll
+D:\DAI_HOC\Nam 3 - Ki 1\AI\ProductAI\8puzzle_Game_Nhom5\WpfApp1\obj\Debug\net6.0-windows\WpfApp1.pdb
+D:\DAI_HOC\Nam 3 - Ki 1\AI\ProductAI\8puzzle_Game_Nhom5\WpfApp1\obj\Debug\net6.0-windows\WpfApp1.genruntimeconfig.cache
+D:\DAI_HOC\Nam 3 - Ki 1\AI\ProductAI\8puzzle_Game_Nhom5\WpfApp1\obj\Debug\net6.0-windows\ref\WpfApp1.dll

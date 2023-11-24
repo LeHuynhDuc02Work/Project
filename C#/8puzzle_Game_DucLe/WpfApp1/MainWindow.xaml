@@ -1,0 +1,60 @@
+﻿<Window x:Name="Form1" x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="470" Width="800" Loaded="Form1_Loaded">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <StackPanel x:Name="StackPanel1" Background="Aqua"  HorizontalAlignment="Left" Height="348" Margin="20,20,0,0" VerticalAlignment="Top" Width="350">
+            <Button x:Name="btn_number1" Content="" Height="110" Width="110" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="2,3,0,0" FontWeight="Bold" FontSize="48"/>
+            <Button x:Name="btn_number2" Content="" Height="110" Width="110" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,-110,0,0" FontSize="48" FontWeight="Bold"/>
+            <Button x:Name="btn_number3" Content="" Height="110" Width="110" HorizontalAlignment="Right" Margin="0,-110,2,0" FontWeight="Bold" FontSize="48"/>
+            <Button x:Name="btn_number4" Content="" Height="110" Width="110" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="2,6,0,0" FontWeight="Bold" FontSize="48"/>
+            <Button x:Name="btn_number5" Content="" Height="110" Width="110" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,-110,0,0" FontSize="48" FontWeight="Bold"/>
+            <Button x:Name="btn_number6" Content="" Height="110" Width="110" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,-110,2,0" FontSize="48" FontWeight="Bold"/>
+            <Button x:Name="btn_number7" Content="" Height="110" Width="110" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="2,6,0,0" FontWeight="Bold" FontSize="48"/>
+            <Button x:Name="btn_number8" Content="" Height="110" Width="110" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,-110,0,0" FontWeight="Bold" FontSize="48"/>
+            <Button x:Name="btn_number9" Content="" Height="110" Width="110" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,-110,2,0" FontSize="48" FontWeight="Bold"/>
+        </StackPanel>
+        <StackPanel x:Name="panel_function" Background="#FFF4E4CA" HorizontalAlignment="Left" Height="42" Margin="20,375,0,0" VerticalAlignment="Top" Width="350">
+            <Button x:Name="btn_random" Content="Random" Height="32" Width="100" FontSize="14" FontWeight="Bold" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="10,5,0,0" Click="btn_random_Click"/>
+            <Button x:Name="btn_Slove" Content="Slove" Height="32" Width="100" FontSize="14" FontWeight="Bold" Margin="0,-32,0,0" HorizontalAlignment="Center" Click="btn_Slove_Click"/>
+            <Button x:Name="btn_Show" Content="Show " Height="32" Width="100" FontSize="14" FontWeight="Bold" VerticalAlignment="Center" Margin="0,-32,10,0" HorizontalAlignment="Right" Click="btn_Show_Click"/>
+        </StackPanel>
+        <StackPanel Background="#FFF4E4CA" HorizontalAlignment="Left" Height="60" Margin="435,31,0,0" VerticalAlignment="Top" Width="290">
+            <Button x:Name="btn_start" Content="Start now" Height="40" Width="88" FontSize="14" FontWeight="Bold" HorizontalAlignment="Left" Margin="40,10,0,0" Click="btn_start_Click"/>
+            <Button x:Name="btn_exit" Content="Exit" Height="40" Width="88" FontSize="14" FontWeight="Bold" Margin="0,-40,40,0" HorizontalAlignment="Right" Click="btn_exit_Click"/>
+        </StackPanel>
+        <StackPanel x:Name="panel_move" Background="#FFF4E4CA" HorizontalAlignment="Left" Height="158" Margin="490,259,0,0" VerticalAlignment="Top" Width="180" RenderTransformOrigin="0.498,0.667">
+            <Button x:Name="btn_top" Content="▲" Height="50" Width="40" FontWeight="Bold" FontSize="24" Click="btn_top_Click"/>
+            <Button x:Name="btn_right" Content="▶" Height="40" Width="50" HorizontalAlignment="Right" FontWeight="Bold" FontSize="24" Margin="0,10,0,0" Click="btn_right_Click"/>
+            <Button x:Name="btn_bottom" Content="▼" Height="50" Width="40" FontWeight="Bold" FontSize="24" RenderTransformOrigin="0.616,1.32" Margin="0,8,0,0" Click="btn_bottom_Click"/>
+            <Button x:Name="btn_left" Content="◀" Height="40" Width="50" HorizontalAlignment="Left" FontSize="24" FontWeight="Bold" Margin="0,-155,0,0" Click="btn_left_Click"/>
+        </StackPanel>
+        <StackPanel Background="Aqua" HorizontalAlignment="Left" Height="130" Margin="540,107,0,0" VerticalAlignment="Top" Width="130">
+            <Button Content="" Height="40" Width="40" FontSize="20" FontWeight="Bold" HorizontalAlignment="Left" Margin="1,3,0,0"/>
+            <Button Content="1" Height="40" Width="40" FontSize="20" FontWeight="Bold" HorizontalAlignment="Center" Margin="0,-40,0,0"/>
+            <Button Content="2" Height="40" Width="40" FontSize="20" FontWeight="Bold" HorizontalAlignment="Right" Margin="0,-40,2,0"/>
+            <Button Content="3" Height="40" Width="40" FontSize="20" FontWeight="Bold" HorizontalAlignment="Left" Margin="1,3,0,0"/>
+            <Button Content="4" Height="40" Width="40" FontSize="20" FontWeight="Bold" HorizontalAlignment="Center" Margin="0,-40,0,0"/>
+            <Button Content="5" Height="40" Width="40" FontSize="20" FontWeight="Bold" HorizontalAlignment="Right" Margin="0,-40,2,0"/>
+            <Button Content="6" Height="40" Width="40" FontSize="20" FontWeight="Bold" HorizontalAlignment="Left" Margin="1,3,0,0"/>
+            <Button Content="7" Height="40" Width="40" FontSize="20" FontWeight="Bold" Margin="0,-41,0,0" HorizontalAlignment="Center"/>
+            <Button Content="8" Height="40" Width="40" FontSize="20" FontWeight="Bold" Margin="0,-40,2,0" HorizontalAlignment="Right"/>
+        </StackPanel>
+        <Label Content="Answer:" HorizontalAlignment="Left" Height="39" Margin="456,107,0,0" VerticalAlignment="Top" Width="79" FontSize="18" FontWeight="Bold" RenderTransformOrigin="0.181,0.596"/>
+        <StackPanel x:Name="panel_Show" Background="#FFF4E4CA" HorizontalAlignment="Left" Height="158" Margin="698,259,0,0" VerticalAlignment="Top" Width="75">
+            <Button x:Name="btn_ShowAnsUp" Content="▲" Height="60" Width="45" FontSize="24" FontWeight="Bold" Click="btn_ShowAnsUp_Click" Margin="0,1,0,0"/>
+            <Button x:Name="btn_ShowAnsDown" Content="▼" Height="60" Width="45" FontSize="24" FontWeight="Bold" Click="btn_ShowAnsDown_Click" HorizontalAlignment="Center" Margin="0,37,0,0"/>
+        </StackPanel>
+        <TextBox x:Name="txt_Step" HorizontalAlignment="Left" Height="26" Margin="713,159,0,0" TextWrapping="Wrap" Width="45" VerticalAlignment="Top" FontSize="14" FontWeight="Bold" IsEnabled="False" Text="0" TextAlignment="Center"/>
+        <Label x:Name="laybel_Step" Content="Step:" HorizontalAlignment="Left" Height="28" Margin="712,126,0,0" VerticalAlignment="Top" Width="46" FontWeight="Bold" FontSize="14" Background="#FFF1C3C3"/>
+
+
+    </Grid>
+</Window>
