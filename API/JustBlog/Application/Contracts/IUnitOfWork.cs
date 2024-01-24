@@ -8,6 +8,5 @@ namespace Application.Contracts
         IPostRepository PostRepository { get; }
         IPostTagMapRepository PostTagMapRepository { get; }
         ITagRepository TagRepository { get; }
-        IAccountRepository AccountRepository { get; }
     }
 }

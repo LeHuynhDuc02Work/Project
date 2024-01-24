@@ -25,11 +25,11 @@ namespace API.Controllers
             return Ok(await _tagService.GetAll(page));
         }
 
-        [HttpGet("{tagId}")]
+        [HttpGet("{id}")]
         [ProducesResponseType(200, Type = typeof(Tag))]
-        public async Task<IActionResult> GetTagById(Guid tagId)
+        public async Task<IActionResult> GetTagById(Guid id)
         {
-            return Ok(await _tagService.GetTagById(tagId));
+            return Ok(await _tagService.GetTagById(id));
         }
 
         [HttpPost]
@@ -38,16 +38,16 @@ namespace API.Controllers
             return Ok(await _tagService.CreateTag(tagCreate));
         }
 
-        [HttpPut("{tagId}")]
-        public async Task<IActionResult> UpdateTag(Guid tagId, [FromForm] TagDto tagUpdate)
+        [HttpPut("{id}")]
+        public async Task<IActionResult> UpdateTag(Guid id, [FromForm] TagDto tagUpdate)
         {
-            return Ok(await _tagService.UpdateTag(tagId, tagUpdate));
+            return Ok(await _tagService.UpdateTag(id, tagUpdate));
         }
 
-        [HttpDelete("{tagId}")]
-        public async Task<IActionResult> DeleteTag(Guid tagId)
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteTag(Guid id)
         {
-            return Ok(await _tagService.DeleteTag(tagId));
+            return Ok(await _tagService.DeleteTag(id));
         }
     }
 }

@@ -3676,11 +3676,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Git\\LeHuynhDuc02Work\\JustBlog\\Application\\Application.csproj",
+      "projectUniqueName": "D:\\ThucTap\\Web\\API\\JustBlog\\Application\\Application.csproj",
       "projectName": "Application",
-      "projectPath": "D:\\Git\\LeHuynhDuc02Work\\JustBlog\\Application\\Application.csproj",
+      "projectPath": "D:\\ThucTap\\Web\\API\\JustBlog\\Application\\Application.csproj",
       "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "D:\\Git\\LeHuynhDuc02Work\\JustBlog\\Application\\obj\\",
+      "outputPath": "D:\\ThucTap\\Web\\API\\JustBlog\\Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3697,8 +3697,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Git\\LeHuynhDuc02Work\\JustBlog\\DataAccess\\DataAccess.csproj": {
-              "projectPath": "D:\\Git\\LeHuynhDuc02Work\\JustBlog\\DataAccess\\DataAccess.csproj"
+            "D:\\ThucTap\\Web\\API\\JustBlog\\DataAccess\\DataAccess.csproj": {
+              "projectPath": "D:\\ThucTap\\Web\\API\\JustBlog\\DataAccess\\DataAccess.csproj"
             }
           }
         }

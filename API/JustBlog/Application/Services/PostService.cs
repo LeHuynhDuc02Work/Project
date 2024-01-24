@@ -56,13 +56,13 @@ namespace Application.Services
             }
         }
 
-        public async Task<ICollection<PostViewDto>> GetAll(string keyWord, int page)
+        public async Task<ICollection<PostViewDto>> GetAll(InputSearchDto input)
         {
             try
             {
-                var posts = _mapper.Map<ICollection<PostViewDto>>(await _unitOfWork.PostRepository.GetAll(keyWord));
+                var posts = _mapper.Map<ICollection<PostViewDto>>(await _unitOfWork.PostRepository.GetAll(input.search));
                 var Pagination = new PaginationHelper<PostViewDto>();
-                var postsPagination = Pagination.Paginate(posts, page, PageSize);
+                var postsPagination = Pagination.Paginate(posts, input.page, input.pageSize);
                 return postsPagination;
             }
             catch (Exception ex)

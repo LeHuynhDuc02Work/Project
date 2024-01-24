@@ -1,9 +1,14 @@
 ﻿using Application.Dtos;
 using Microsoft.AspNetCore.Identity;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace DataAccess.Repository.Contracts
+namespace Application.Accounts
 {
-    public interface IAccountRepository
+    public interface IAccountService
     {
         public Task<IdentityResult> SignUpAsync(SignUpDto model);
 

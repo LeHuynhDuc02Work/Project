@@ -4,7 +4,7 @@ namespace Application.Contracts
 {
     public interface ICategoryService
     {
-        Task<ICollection<CategoryViewDto>> GetAll(string keyWord ,int page);
+        Task<ICollection<CategoryViewDto>> GetAll(InputSearchDto input);
 
         Task<CategoryViewDto> GetCategoryById(Guid categoryId);
 

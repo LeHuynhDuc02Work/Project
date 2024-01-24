@@ -4,7 +4,7 @@ namespace Application.Contracts
 {
     public interface IPostService
     {
-        Task<ICollection<PostViewDto>> GetAll(string keyWord ,int page);
+        Task<ICollection<PostViewDto>> GetAll(InputSearchDto input);
 
         Task<PostViewDto> GetPostById(Guid postId);
 

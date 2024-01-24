@@ -961,11 +961,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Git\\LeHuynhDuc02Work\\JustBlog\\Core\\Core.csproj",
+      "projectUniqueName": "D:\\ThucTap\\Web\\API\\JustBlog\\Core\\Core.csproj",
       "projectName": "Core",
-      "projectPath": "D:\\Git\\LeHuynhDuc02Work\\JustBlog\\Core\\Core.csproj",
+      "projectPath": "D:\\ThucTap\\Web\\API\\JustBlog\\Core\\Core.csproj",
       "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "D:\\Git\\LeHuynhDuc02Work\\JustBlog\\Core\\obj\\",
+      "outputPath": "D:\\ThucTap\\Web\\API\\JustBlog\\Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",

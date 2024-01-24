@@ -1,17 +1,17 @@
 ﻿using Application.Dtos;
 using Core;
-using DataAccess.Repository.Contracts;
+using Core.Helper;
+using DataAccess;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
-using Core.Helper;
 
-namespace DataAccess.Repository
+namespace Application.Accounts
 {
-    public class AccountRepository : IAccountRepository
+    public class AccountService : IAccountService
     {
         private readonly UserManager<ApplicationUser> _userManager;
         private readonly SignInManager<ApplicationUser> _signInManager;
@@ -19,7 +19,7 @@ namespace DataAccess.Repository
         private readonly IConfiguration _configuration;
         private readonly ApplicationDbContext _context;
 
-        public AccountRepository(UserManager<ApplicationUser> userManager,
+        public AccountService(UserManager<ApplicationUser> userManager,
             SignInManager<ApplicationUser> signInManager,
             RoleManager<IdentityRole> roleManager,
             IConfiguration configuration,
@@ -35,7 +35,7 @@ namespace DataAccess.Repository
         public async Task<string> SignInAsync(SignInDto model)
         {
             var user = _context.Users.Where(x => x.UserName == model.UserName).FirstOrDefault();
-            
+
             var passwordValid = await _userManager.CheckPasswordAsync(user, model.Password);
 
             if (user == null || !passwordValid)

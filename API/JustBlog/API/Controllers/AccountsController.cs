@@ -1,4 +1,4 @@
-﻿using Application.Contracts;
+﻿using Application.Accounts;
 using Application.Dtos;
 using Microsoft.AspNetCore.Mvc;
 
@@ -15,16 +15,16 @@ namespace API.Controllers
             _accountService = accountService;
         }
 
-        [HttpPost("SignIn")]
+        [HttpPost("sign-in")]
         public async Task<IActionResult> SignIn([FromForm] SignInDto signInDto)
         {
-            return Ok(await _accountService.SignIn(signInDto));
+            return Ok(await _accountService.SignInAsync(signInDto));
         }
 
-        [HttpPost("SigUp")]
+        [HttpPost("sign-up")]
         public async Task<IActionResult> SignUp([FromForm] SignUpDto signUpDto)
         {
-            return Ok(await _accountService.SignUp(signUpDto));
+            return Ok(await _accountService.SignUpAsync(signUpDto));
         }
     }
 }

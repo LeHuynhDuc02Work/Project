@@ -52,15 +52,15 @@ namespace Application.Services
             }
         }
 
-        public async Task<ICollection<CategoryViewDto>> GetAll(string keyWord, int page)
+        public async Task<ICollection<CategoryViewDto>> GetAll(InputSearchDto input)
         {
             try
             {
-                var result = await _unitOfWork.CategoryRepository.GetAll(keyWord);
+                var result = await _unitOfWork.CategoryRepository.GetAll(input.search);
                 var categories = _mapper.Map<ICollection<CategoryViewDto>>(result);
 
                 var paginationHelper = new PaginationHelper<CategoryViewDto>();
-                var categoriesPagination = paginationHelper.Paginate(categories, page, PageSize);
+                var categoriesPagination = paginationHelper.Paginate(categories, input.page, input.pageSize);
 
                 return categoriesPagination;
             }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "C8N87E8+312S0pKN3E8EUVFg39NzjpcoQUWOFlyBU31WAimUIfPn8wsMZ6GoPQTeLu2GKf8kL8cY/2hDn/QJvw==",
+  "dgSpecHash": "dOT8T23/b+czxdal+oxMrvLPtSZb3whvngyvlt82spJ2z1rUQNlfdL8yZWE2bSrJkXg5bhhbtHqWj+ig1zUkJA==",
   "success": true,
-  "projectFilePath": "D:\\Git\\LeHuynhDuc02Work\\JustBlog\\DataAccess\\DataAccess.csproj",
+  "projectFilePath": "D:\\ThucTap\\Web\\API\\JustBlog\\DataAccess\\DataAccess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\admin\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

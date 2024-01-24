@@ -1,12 +1,14 @@
 ﻿using Application.Contracts;
 using Application.Dtos;
 using Core;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize(AuthenticationSchemes = "Bearer")]
     public class PostsController : Controller
     {
         private readonly IPostService _postService;
@@ -18,16 +20,16 @@ namespace API.Controllers
 
         [HttpGet]
         [ProducesResponseType(200, Type = typeof(ICollection<Post>))]
-        public async Task<IActionResult> GetAll(string? keyWord, int page = 1)
+        public async Task<IActionResult> GetAll([FromQuery] InputSearchDto input)
         {
-            return Ok(await _postService.GetAll(keyWord, page));
+            return Ok(await _postService.GetAll(input));
         }
 
-        [HttpGet("{postId}")]
+        [HttpGet("{id}")]
         [ProducesResponseType(200, Type = typeof(Post))]
-        public async Task<IActionResult> GetPostById(Guid postId)
+        public async Task<IActionResult> GetPostById(Guid id)
         {
-            return Ok(await _postService.GetPostById(postId));
+            return Ok(await _postService.GetPostById(id));
         }
 
         [HttpPost]
@@ -36,16 +38,16 @@ namespace API.Controllers
             return Ok(await _postService.CreatePost(postCreate));
         }
 
-        [HttpPut("{postId}")]
-        public async Task<IActionResult> UpdatePost(Guid postId, [FromForm] PostDto postUpdate)
+        [HttpPut("{id}")]
+        public async Task<IActionResult> UpdatePost(Guid id, [FromForm] PostDto postUpdate)
         {
-            return Ok(await _postService.UpdatePost(postId, postUpdate));
+            return Ok(await _postService.UpdatePost(id, postUpdate));
         }
 
-        [HttpDelete("{postId}")]
-        public async Task<IActionResult> DeletePost(Guid postId)
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeletePost(Guid id)
         {
-            return Ok(await _postService.DeletePost(postId));
+            return Ok(await _postService.DeletePost(id));
         }
     }
 }

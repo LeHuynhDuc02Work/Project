@@ -17,17 +17,17 @@ namespace API.Controllers
             _postTagService = postTagService;
         }
 
-        [HttpGet("{postId}/Tags")]
+        [HttpGet("{id}/tags")]
         [ProducesResponseType(200, Type = typeof(ICollection<Tag>))]
-        public async Task<IActionResult> GetTagsByPostId(Guid postId, int page = 1)
+        public async Task<IActionResult> GetTagsByPostId(Guid id, int page = 1)
         {
-            return Ok(await _postTagService.GetTagsByPostId(postId, page));
+            return Ok(await _postTagService.GetTagsByPostId(id, page));
         }
 
         [HttpPost("/post/{id}/tags")]
-        public async Task<IActionResult> LinkTagsToPost(Guid postId, [FromForm] ICollection<Guid> tagIds)
+        public async Task<IActionResult> LinkTagsToPost(Guid id, [FromForm] ICollection<Guid> tagIds)
         {
-            return Ok(await _postTagService.LinkTagsToPost(postId, tagIds));
+            return Ok(await _postTagService.LinkTagsToPost(id, tagIds));
         }
 
         [HttpDelete("{postId}/tags/{tagId}")]
@@ -42,7 +42,7 @@ namespace API.Controllers
             return Ok(await _postTagService.UpdatePostTags(postId, tagIds));
         }
 
-        [HttpDelete("{postId}/Tags")]
+        [HttpDelete("{postId}/tags")]
         public async Task<IActionResult> DeletePostTag(Guid postId)
         {
             return Ok(await _postTagService.DeletePostTag(postId));

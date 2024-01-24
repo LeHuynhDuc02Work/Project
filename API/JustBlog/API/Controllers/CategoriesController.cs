@@ -1,12 +1,15 @@
 ﻿using Application.Contracts;
 using Application.Dtos;
 using Core;
+using Core.Helper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    //[Authorize(AuthenticationSchemes = "Bearer", Roles = AppRole.Customer)]
     public class CategoriesController : Controller
     {
         private readonly ICategoryService _categoryService;
@@ -16,20 +19,18 @@ namespace API.Controllers
             _categoryService = categoryService;
         }
 
-        //[Authorize(Roles = AppRole.Customer)]
-        //[Authorize(AuthenticationSchemes = "Bearer", Roles = AppRole.Customer)]
         [HttpGet]
         [ProducesResponseType(200, Type = typeof(ICollection<Category>))]
-        public async Task<IActionResult> GetAll(string? keyWord, int page = 1)
+        public async Task<IActionResult> GetAll([FromQuery]InputSearchDto input)
         {
-            return Ok(await _categoryService.GetAll(keyWord, page));
+            return Ok(await _categoryService.GetAll(input));
         }
 
-        [HttpGet("{categoryId}")]
+        [HttpGet("{id}")]
         [ProducesResponseType(200, Type = typeof(Category))]
-        public async Task<IActionResult> GetCategoryById(Guid categoryId)
+        public async Task<IActionResult> GetCategoryById(Guid id)
         {
-            return Ok(await _categoryService.GetCategoryById(categoryId));
+            return Ok(await _categoryService.GetCategoryById(id));
         }
 
         [HttpPost]
@@ -38,16 +39,16 @@ namespace API.Controllers
             return Ok(await _categoryService.CreateCategory(categoryCreate));
         }
 
-        [HttpPut("{categoryId}")]
-        public async Task<IActionResult> UpdateCategory(Guid categoryId, [FromForm] CategoryDto categoryUpdate)
+        [HttpPut("{id}")]
+        public async Task<IActionResult> UpdateCategory(Guid id, [FromForm] CategoryDto categoryUpdate)
         {
-            return Ok(await _categoryService.UpdateCategory(categoryId, categoryUpdate));
+            return Ok(await _categoryService.UpdateCategory(id, categoryUpdate));
         }
 
-        [HttpDelete("{categoryId}")]
-        public async Task<IActionResult> DeletePostsByCategoryId(Guid categoryId)
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeletePostsByCategoryId(Guid id)
         {
-            return Ok(await _categoryService.DeletePostsByCategoryId(categoryId));
+            return Ok(await _categoryService.DeletePostsByCategoryId(id));
         }
     }
 }
