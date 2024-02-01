@@ -1,0 +1,112 @@
+@media (min-width: 1024px) {
+    #header .menu-mobile-btn {
+        display: none;
+    }
+}
+
+@media (max-width: 1023px) {
+    .modal-header {
+        width: 100%;
+    }
+
+    .modal .modal-container {
+        width: 100%;
+        padding: 0 8px;
+    }
+}
+
+@media (min-width: 740px) and (max-width: 1023px){
+    #header .menu-mobile-btn {
+        display: none;
+    }
+}
+@media (max-width: 739px) {
+
+    #header {
+        overflow: hidden;
+    }
+
+    #nav {
+        display: block;
+    }
+
+    #nav .subnav {
+        background-color: #000;
+        position: initial;
+    }
+
+    #nav li:hover .subnav {
+        display: block;
+        background-color: #000;
+        box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
+    }
+
+    #nav .subnav a {
+        min-width: 140px;
+        /* width: 100%; */
+        color: #fff;
+        text-transform: none;
+        padding-left: 45px;
+    }
+
+    #nav li {
+        display: block;
+    }
+
+    #nav li:first-child {
+        display: inline-block;
+    }
+    #nav li a {
+        display: block;
+        color: #fff;
+    }
+
+    #header .search-btn { 
+        display: none;
+    }
+
+    .list-member .member-item {
+        width: 100%;
+        margin-top: 16px;
+    }
+
+    .list-member .member-img {
+        width: 72%;
+        border-radius: 4px;
+    }
+
+    .place-content {
+        width: 100%;
+        padding: 0 8px;
+        margin-top: 16px;
+    }
+
+    .contact-info {
+        width: 100%;
+        margin-left: 8px;
+        margin-bottom: 16px;
+    }
+
+    .form-input-contact {
+        width: 100%;
+    }
+
+    .form-input-contact .input-name {
+        width: 95%;
+        margin: 0;
+    }
+
+    .form-input-contact .input-message {
+        width: 95%;
+        margin: 0;
+    }
+
+    .place-content .buy-tickets {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .form-input-contact .submit-btn {
+        width: 95%;
+    }
+}
